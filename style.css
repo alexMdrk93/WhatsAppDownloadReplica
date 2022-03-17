@@ -1,0 +1,747 @@
+*, *::after, *::before
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width:767px) {
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topNavigationBar
+    {
+        display: flex;
+        flex-direction: row;
+        background-color: #128c7e;
+        align-items: center;
+        justify-content: center;
+        height: 61px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .topNavigationBar__logo
+    {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 80%;
+    }
+
+    .topNavigationBar__burger
+    {        
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+    }
+
+    .topNavigationBar__language
+    {
+        display: none;
+    }
+
+    .topNavigationBar__burgerMeniu
+    {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin: 5px 0;
+      }
+
+    .menu__list
+    {
+        display: none;
+    }
+
+    .mainContainer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phonesContainer
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: #e7f0e4;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .phonesContainer__title
+    {
+        margin-bottom: 54px;
+    }
+
+    .phonesContainer__title__heading
+    {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .phonesWrapper__android
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .androidImg
+    {
+        margin-bottom: 16px;
+    }
+
+    .androidBtn__b
+    {
+        background-color:#128c7e;
+        color:white;
+        border-radius: 40px;
+        padding: 16px 32px;
+        font-weight: 400;
+        font-size: 16px;
+        border: 0 solid black;
+
+    }
+
+    .phonesWrapper__iPhone
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .iPhoneImg
+    {
+        margin-bottom: 16px;
+    }
+
+    .iPhoneBtn__b
+    {
+        background-color:#128c7e;
+        color:white;
+        border-radius: 40px;
+        padding: 16px 32px;
+        font-weight: 400;
+        font-size: 16px;
+        border: 0 solid black;
+    }
+
+    .phonesContainer__footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .footer__visit 
+    {
+        max-width: 95%;
+        word-wrap: break-word;
+        margin-bottom: 18px;
+        align-content: center;
+        font-size: 19px;
+    }
+
+    .footer__visit a
+    {
+        text-decoration: none;
+        color: #5bc3ea;
+
+    }
+
+    .footer__terms
+    {
+        word-wrap: break-word;
+        margin-bottom: 18px;
+        font-size: 16px;
+        color: #5e5e5e;
+    }
+
+    .footer__terms a
+    {
+        text-decoration: none;
+        color: #5bc3ea;
+        
+    }
+
+    .pcContainer
+    {
+        background-color: #fcf2c6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .pcContainer__title
+    {
+        margin-bottom: 54px;
+    }
+
+    .pcContainer__title__h1
+    {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .pcContainer__image img 
+    {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .pcContainer__image
+    {
+        max-width: 80% ;
+    }
+
+    .pcContainer__terms
+    {
+        color: #5e5e5e;
+        margin-bottom: 40px;
+    }
+
+    .pcContainer__terms p
+    {
+        font-size: 16px;
+        line-height: 26px;
+        word-wrap: break-word;
+        margin: 1em 0;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .pcContainer__terms p a 
+    {
+        text-decoration: none;
+        color: #5bc3ea;
+    }
+
+    .pcContainer__btn
+    {
+        margin-bottom: 32px;
+    }
+
+    .pcContainer__btn_b
+    {
+        background-color:#128c7e;
+        color:white;
+        border-radius: 40px;
+        padding: 16px 32px;
+        font-weight: 400;
+        font-size: 16px;
+        border: 0 solid black;
+    }
+
+    .pcContainer__microsoft
+    {
+        margin-bottom: 64px;
+    }
+
+    .pcContainer__microsoft a img
+    {
+        width: 160px;
+    }
+
+    .pcContainer__windowsDL
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pcContainer__windowsDL a
+    {
+        text-decoration: none;
+        color: #39b9e3;
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 8px;
+    }
+
+    .footerNavigationBar__container
+    {
+        background-color: #273443;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 56px 24px 0;
+    }
+
+    .footerNavigationBar__list
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+        width: 50%;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .list1Item__title
+    {
+        padding-bottom: 16px;
+        font-weight: 700;
+        letter-spacing: 1.7px;
+        line-height: 17px;
+        font-size: 16px;
+    }
+
+    .listItem
+    {
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 16px;
+        line-height: 26px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .mainFooter
+    {
+        background-color: #1c1e21;
+        color: white;
+        padding: 16px 24px;
+    }
+
+    .mainFooter__copyright
+    {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .mainFooter__privacy
+    {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .mainfooter__link
+    {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topNavigationBar
+    {
+        display: flex;
+        flex-direction: row;
+        background-color: #128c7e;
+        align-items: center;
+        justify-content: space-between;
+        height: 74px;
+        position: fixed;
+        width: 100%;
+    }
+
+    .topNavigationBar__logo
+    {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .topNavigationBar__burger
+    {        
+        display: none;
+    }
+
+    .topNavigationBar__language
+    {
+        display: inline;
+    }
+
+    .topNavigationBar__burgerMeniu
+    {
+        display: none;
+    }
+
+    .menu__list
+    {
+        display:flex;
+        list-style-type: none;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .mainContainer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phonesContainer
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: #e7f0e4;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .phonesContainer__title
+    {
+        margin-bottom: 54px;
+    }
+
+    .phonesContainer__title__heading
+    {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .phonesWrapper__android
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .androidImg
+    {
+        margin-bottom: 16px;
+    }
+
+    .androidBtn__b
+    {
+        background-color:#128c7e;
+        color:white;
+        border-radius: 40px;
+        padding: 16px 32px;
+        font-weight: 400;
+        font-size: 16px;
+        border: 0 solid black;
+
+    }
+
+    .phonesWrapper__iPhone
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .iPhoneImg
+    {
+        margin-bottom: 16px;
+    }
+
+    .iPhoneBtn__b
+    {
+        background-color:#128c7e;
+        color:white;
+        border-radius: 40px;
+        padding: 16px 32px;
+        font-weight: 400;
+        font-size: 16px;
+        border: 0 solid black;
+    }
+
+    .phonesContainer__footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .footer__visit 
+    {
+        max-width: 95%;
+        word-wrap: break-word;
+        margin-bottom: 18px;
+        align-content: center;
+        font-size: 19px;
+    }
+
+    .footer__visit a
+    {
+        text-decoration: none;
+        color: #5bc3ea;
+
+    }
+
+    .footer__terms
+    {
+        word-wrap: break-word;
+        margin-bottom: 18px;
+        font-size: 16px;
+        color: #5e5e5e;
+    }
+
+    .footer__terms a
+    {
+        text-decoration: none;
+        color: #5bc3ea;
+        
+    }
+
+    .pcContainer
+    {
+        background-color: #fcf2c6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .pcContainer__title
+    {
+        margin-bottom: 54px;
+    }
+
+    .pcContainer__title__h1
+    {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .pcContainer__image img 
+    {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .pcContainer__image
+    {
+        max-width: 80% ;
+    }
+
+    .pcContainer__terms
+    {
+        color: #5e5e5e;
+        margin-bottom: 40px;
+    }
+
+    .pcContainer__terms p
+    {
+        font-size: 16px;
+        line-height: 26px;
+        word-wrap: break-word;
+        margin: 1em 0;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .pcContainer__terms p a 
+    {
+        text-decoration: none;
+        color: #5bc3ea;
+    }
+
+    .pcContainer__btn
+    {
+        margin-bottom: 32px;
+    }
+
+    .pcContainer__btn_b
+    {
+        background-color:#128c7e;
+        color:white;
+        border-radius: 40px;
+        padding: 16px 32px;
+        font-weight: 400;
+        font-size: 16px;
+        border: 0 solid black;
+    }
+
+    .pcContainer__microsoft
+    {
+        margin-bottom: 64px;
+    }
+
+    .pcContainer__microsoft a img
+    {
+        width: 160px;
+    }
+
+    .pcContainer__windowsDL
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pcContainer__windowsDL a
+    {
+        text-decoration: none;
+        color: #39b9e3;
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 8px;
+    }
+
+    .footerNavigationBar__container
+    {
+        background-color: #273443;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 56px 24px 0;
+    }
+
+    .footerNavigationBar__list
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+        width: 50%;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .list1Item__title
+    {
+        padding-bottom: 16px;
+        font-weight: 700;
+        letter-spacing: 1.7px;
+        line-height: 17px;
+        font-size: 16px;
+    }
+
+    .listItem
+    {
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 16px;
+        line-height: 26px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .mainFooter
+    {
+        background-color: #1c1e21;
+        color: white;
+        padding: 16px 24px;
+    }
+
+    .mainFooter__copyright
+    {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .mainFooter__privacy
+    {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .mainfooter__link
+    {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+
+
+
+/* .container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.topNavigationBar
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.topNavigationBar__logo
+{
+
+}
+
+.topNavigationBar__menu
+{
+
+}
+
+.menu__list
+{
+    
+}
+
+.mainContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.phonesContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.phonesWrapper
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.phonesContainer__footer
+{
+    display: inline-block;
+} */
